@@ -33,13 +33,38 @@
     }
     console.log("Variable Música despues del Bloque", musica);
 console.log("**************let*************************")
-    let musica2 = "Rock";
-    console.log("Variable Música antes del Bloque", musica2);
-    {
-        let musica2 = "Pop"
-        console.log("Variable Música dentro del Bloque", musica2);
+  //  let musica2 = "Rock";
+  //  console.log("Variable Música antes del Bloque", musica2);
+   // {
+    //    console.log("Variable Música dentro del Bloque", musica2);
+  //      let musica2 = "Pop"
+  //  }
+    //console.log("Variable Música despues del Bloque", musica2);
+
+    const PI = 3.1416;
+    console.log(PI);
+    // const se utiliza para variable que no van a cambiar
+    let objeto= {
+        nombre: "Paul",
+        edad:19
     }
-    console.log("Variable Música despues del Bloque", musica2);
+    //un objeto puede variables de varias propiedades
+    
+    let colores = ['blanco', 'negro', 'azul']
+    console.log(objeto);
+    console.log(colores);
+
+objeto.correo = "pauloladapo13@gmail.com"
+colores.push('anaranjado');
+
+console.log(objeto);
+console.log(colores);
+//como los objetos y los arreglos son datos compuestos y al utilizar const si puedes cambiar sus propiedades ya que se altera la referencia a estos y no directamente al objeto o arreglo.
+//lo cual si pasa con los datos primitivos que se accede directamente a su valor.
+
+
+
+
 </script>
 </body>
 </html>
