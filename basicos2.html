@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>1Fundamentos de JavaScript</h2>
+<script>
+//Cadenas de texto de tipo Strings
+let nombre ='Paul';
+let apellido = 'Oladapo';
+console.log(nombre);
+console.log(apellido);
+let saludo = new String('Hola Mundo');
+let lorem ='lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, et dolorum. Adipisci sequi, voluptates accusamus earum magnam non pariatur odit consequuntur dicta modi. Quam soluta aliquid nam ea quod dolore.           ';
+
+
+console.log(nombre, apellido, saludo);
+console.log(
+    nombre.length,
+    apellido.length,
+    saludo.length,
+    apellido.toLowerCase(),
+    nombre.toUpperCase(),
+    lorem.includes('amet'),
+    lorem.includes('Paul'),
+    lorem,
+    lorem.trim(),//elimina los espacios finales e iniciales en una cadena de texto.
+    lorem.split(' '),
+    lorem.split(',')
+);
+
+
+    
+    
+    
+    
+</script>    
+</body>
+</html>
